@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      width: 100vw;
+      height: 13vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: white;
+    }
+
+    nav {
+      width: 70vw;
+      display: flex;
+      justify-content: end;
+      gap: 2rem;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: grey;
+    }
+
+    section {
+      width: 100vw;
+      height: 20rem;
+      padding-left: 3rem;
+      padding-top: 3rem;
+      background-color: hsl(256, 26%, 20%);
+    }
+
+    .one {
+      /* background-color: hsl(256, 26%, 20%); */
+    }
+
+    .header-one {
+      margin-bottom: 1rem;
+      color: white;
+      font-size: 300%;
+    }
+
+    .button-one {
+      margin-top: 1rem;
+      text-decoration: none;
+      height: 3rem;
+      width: 5rem;
+      color: white;
+      background-color: hsl(256, 26%, 20%);
+    }
+
+    .paragraph-one {
+      color: white;
+    }
+
+    .hero {
+      display: flex;
+    }
+
+    .people {
+      height: 20rem;
+      padding-left: 13rem;
+    }
+
+    .activate {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 4rem;
+      /* background-color: blue; */
+    }
+
+    h3 {
+      padding-top: 1rem;
+    }
+
+    p {
+      padding-top: 1rem;
+      font-size: 80%;
+      color: grey;
+    }
+
+    .different {
+      margin-top: 14rem;
+      padding-left: 2rem;
+      font-size: 200%;
+      color: hsl(256, 26%, 20%);
+    }
+
+    .purple {
+      display: flex;
+      justify-content: space-between;
+      /* background-color: blue; */
+      align-items: center;
+      width: 70vw;
+      height: 30vh;
+      margin-bottom: 5rem;
+      margin-top: 3rem;
+      margin-left: 11rem;
+      padding-bottom: 3rem;
+    }
+
+    .button-two {
+      height: 2rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      height: 3rem;
+      width: 5rem;
+      color: white;
+      background-color: hsl(256, 26%, 20%);
+      margin-right: 3rem;
+    }
+
+    .work {
+      color: white;
+      padding-right: 10rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="">
+    <nav>
+      <a href="#">How we work</a>
+      <a href="#">Blog</a>
+      <a href="#">Account</a>
+      <a href="#">View plans</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <section>
+      <h1 class="header-one">Humanizing <br> your insurance.</h1>
+      <p class="paragraph-one"> Get your life insurance coverage easier and faster. We blend our expertise<br>
+        and technology to help you find the plan thats right for you. Ensure you<br>
+        and your loved ones are protected.
+      </p>
+      <button class="button-one">
+        View plan
+      </button>
+    </section>
+    <section class="one">
+      <img class="people" src="./images/image-intro-desktop.jpg" alt="">
+    </section>
+  </div>
+
+  <main>
+    <h2 class="different">We're different</h2>
+    <div class="activate">
+      <div class="snappy">
+        <div class="main-page">
+          <img src="./images/icon-snappy-process.svg" alt="">
+        </div>
+        <h3>Snappy Process</h3>
+        <p>
+          Our application process can be completed in <br> minutes, not hours. Don't get
+          stuck filling in <br> tedious forms.
+        </p>
+      </div>
+      <div class="prices">
+        <div class="main-page">
+          <img src="./images/icon-affordable-prices.svg" alt="">
+        </div>
+        <h3>Affordable Prices</h3>
+        <p>
+          We don't want you worrying about high monthly <br> costs. Our prices may be low,
+          but we still offer <br> the best coverage possible.
+        </p>
+      </div>
+      <div class="people-first">
+        <div>
+          <img src="./images/icon-people-first.svg" alt="">
+        </div>
+        <h3>People First</h3>
+        <p>
+          Our plans aren't full of conditions and clauses <br> to prevent payouts. We make
+          sure you're <br> covered when you need it.
+        </p>
+      </div>
+    </div>
+    <section class="purple">
+      <h2 class="work">
+        Find out more <br> about how we work
+      </h2>
+      <button class="button-two">
+        How we work
+      </button>
+    </section>
+
+  </main>
+</body>
+
+</html>
